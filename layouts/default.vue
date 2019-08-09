@@ -16,13 +16,13 @@
           <div
             class="w-full block lg:flex lg:justify-between lg:border-b lg:border-gray-400 mt-10 text-gray-700 font-medium lg:text-lg">
             <div class="lg:flex -mb-px">
-              <a href="/book" class="block pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">About</a>
-              <a href="/projects" class="block pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Projects</a>
-              <a href="/interviews" class="block pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Technology</a>
-              <a href="/speaking" class="block pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Uses</a>
+              <nuxt-link to="/about" class="block pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">About</nuxt-link>
+              <nuxt-link to="/projects" class="block pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Projects</nuxt-link>
+              <nuxt-link to="/technology" class="block pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Technology</nuxt-link>
+              <nuxt-link to="/uses" class="block pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Uses</nuxt-link>
             </div>
             <div class="lg:flex">
-              <a href="https://www.instagram.com/steveschoger/"
+              <a href="mailto:coryrosenwald@gmail.com"
                     class="block mt-6 lg:mt-0 lg:ml-8 flex align-center hover:text-gray-900">
                 <div>Contact</div>
                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"
