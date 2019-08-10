@@ -2,12 +2,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-#navigation .nuxt-link-active {
+#navigation .nuxt-link-exact-active {
     @apply .text-gray-900;
 }
 
 @media screen and (min-width: 1024px) {
-    #navigation .nuxt-link-active {
+    #navigation .nuxt-link-exact-active {
         @apply .border-gray-900;
     }
 }
