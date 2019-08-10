@@ -13,8 +13,9 @@
           </div>
         </div>
         <div class="lg:block hidden">
-          <div
-            class="w-full block lg:flex lg:justify-between lg:border-b lg:border-gray-400 mt-10 text-gray-700 font-medium lg:text-lg">
+          <nav
+            class="w-full block lg:flex lg:justify-between lg:border-b lg:border-gray-400 mt-10 text-gray-700 font-medium lg:text-lg"
+            id="navigation">
             <div class="lg:flex -mb-px">
               <nuxt-link to="/about" class="block pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">About</nuxt-link>
               <nuxt-link to="/projects" class="block pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Projects</nuxt-link>
@@ -33,7 +34,7 @@
                 </svg>
               </a>
             </div>
-          </div>
+          </nav>
         </div>
       </div>
       <nuxt/>
