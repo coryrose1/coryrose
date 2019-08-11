@@ -10,7 +10,7 @@
                 <div class="border-t border-gray-400 py-6 sm:py-8 lg:py-10">
                     <div class="lg:flex items-center justify-between">
                         <div>
-                          <h3 class="text-gray-900 sm:text-lg lg:text-xl">Expense Reporting Platform</h3>
+                          <h3 class="text-gray-900 sm:text-lg lg:text-xl font-semibold">Expense Reporting Platform</h3>
                             <div class="text-gray-700 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-3">
                                 <p>Built for and used by a mid-sized organization, this app is used to track employee spending and personal expenses.</p>
                                 <p class="mt-4">Each period, corporate credit card charges are imported to the system and individual reports are created
@@ -23,7 +23,7 @@
                 </div>
                 <div class="border-t border-gray-400 py-6 sm:py-8 lg:py-10">
                     <div class="lg:flex items-center justify-between">
-                        <div><h3 class="text-gray-900 sm:text-lg lg:text-xl">
+                        <div><h3 class="text-gray-900 sm:text-lg lg:text-xl font-semibold">
                             <a href="https://mycoinguru.com/" class="hover:underline">My Coin Guru</a></h3>
                             <div class="text-gray-700 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-3">
                                 <p>Built during the height of the 2017 craze, My Coin Guru is a cryptocurrency portfolio dashboard.</p>
@@ -57,7 +57,7 @@
                 <div class="border-t border-gray-400 py-6 sm:py-8 lg:py-10">
                     <div class="lg:flex items-center justify-between">
                         <div>
-                            <h3 class="text-gray-900 sm:text-lg lg:text-xl">
+                            <h3 class="text-gray-900 sm:text-lg lg:text-xl font-semibold">
                                 College Baseball Recruiting Preparation Platform
                             </h3>
                             <div class="text-gray-700 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-3">

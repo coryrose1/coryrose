@@ -61,10 +61,23 @@
             return {
                 isOpen: false,
             }
-        }
+        },
+        watch: {
+            $route () {
+                this.isOpen = false;
+            }
+        },
     }
 </script>
 
 <style scoped>
+    #navigation .nuxt-link-exact-active {
+        @apply .text-gray-900;
+    }
 
+    @media screen and (min-width: 1024px) {
+        #navigation .nuxt-link-exact-active {
+            @apply .border-gray-900;
+        }
+    }
 </style>
